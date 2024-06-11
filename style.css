@@ -24,6 +24,13 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
+  /* From https://css.glass */
+  background: rgba(45, 49, 49, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.3px);
+  -webkit-backdrop-filter: blur(10.3px);
+  border: 1px solid rgba(45, 49, 49, 0.15);
 }
 
 .countries {
@@ -123,4 +130,14 @@ body {
   margin: 2rem;
   border: 3rem solid white;
   box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  /* From https://css.glass */
+  background: rgba(13, 86, 86, 0.63);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.4px);
+  -webkit-backdrop-filter: blur(6.4px);
+  border: 1px solid rgba(13, 86, 86, 0.4);
 }
